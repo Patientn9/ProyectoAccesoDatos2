@@ -14,6 +14,8 @@ Seta
 
 
 Para la db, las setas tienen en nombreId de familia como pk
+Para los string, varchar(50) y marchando
+
 
 Datos anterior proyecto:
 <familias>
