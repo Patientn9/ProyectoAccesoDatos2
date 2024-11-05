@@ -1,0 +1,54 @@
+-Familia
+  - nombreID : Str --> PK
+  - habitad : Str
+  - clase : Str
+  - alimento : Str
+
+
+Seta
+  - nomCient : Str --> PK
+  - toxicidad : Boolean
+  - nomComun : Str
+  - colorCuerpo : Str
+  - colorEspora : Str
+
+
+Para la db, las setas tienen en nombreId de familia como pk
+
+Datos anterior proyecto:
+<familias>
+  <familia>
+      <nombreID>Mycenaceae</nombreID>
+      <habitad>general</habitad>
+      <clase>Basidiomycota</clase>
+      <alimento>saprofito</alimento>
+      <setas>
+          <seta toxicidad="true">
+              <nomCient>Roridomyces Praeclarus</nomCient>
+              <nomComun>Dedos de fantasma</nomComun>
+              <colorCuerpo>Blanco</colorCuerpo>
+              <colorEspora>Verde</colorEspora>
+          </seta>
+      </setas>
+  </familia>
+  <familia>
+      <nombreID>Hericiaceae</nombreID>
+      <habitad>templada</habitad>
+      <clase>Agaricomycetes</clase>
+      <alimento>saprofito</alimento>
+      <setas>
+          <seta toxicidad="false">
+              <nomCient>Hericium Erinaceus</nomCient>
+              <nomComun>Melena de leon</nomComun>
+              <colorCuerpo>Blanco</colorCuerpo>
+              <colorEspora>Blanco</colorEspora>
+          </seta>
+          <seta toxicidad="false">
+              <nomCient>Hericium americanum</nomCient>
+              <nomComun>Diente de oso</nomComun>
+              <colorCuerpo>Blanco</colorCuerpo>
+              <colorEspora>Blanco</colorEspora>
+          </seta>
+      </setas>
+  </familia>
+</familias>
