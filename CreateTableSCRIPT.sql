@@ -9,11 +9,13 @@ CREATE TABLE Familia (
 
 CREATE TABLE Seta (
 	nomCient 	VARCHAR(50) PRIMARY KEY,
-    toxicidad 	BOOLEAN,
     nomComun 	VARCHAR(50),
     colorCuerpo VARCHAR(50),
     colorEspora VARCHAR(50),
     
     nombreIDFamilia VARCHAR(50) ,
-    FOREIGN KEY (nombreIDFamilia) REFERENCES Familia(nombreID)
+    FOREIGN KEY (nombreIDFamilia) REFERENCES Familia(nombreID),
+    
+	toxicidad 	BOOLEAN
+
 );
