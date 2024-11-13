@@ -32,6 +32,10 @@ INSERT INTO Seta VALUES ("Hericium americanum", "Deinte de oso", "blanco", "blan
 
 
 #Funcion para calcular el porcentaje de setas toxicas es una clase de setas
+#Recordar para poder crear funciones
+# set global log_bin_trust_function_creators = true;
+
+	
 DELIMITER $$
 DROP FUNCTION IF EXISTS getPorcSetasToxicClase;
 CREATE FUNCTION getPorcSetasToxicClase (familiaClase VARCHAR(50) ) RETURNS INT
